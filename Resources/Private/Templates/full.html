@@ -1,0 +1,79 @@
+<div class="row">
+   <section id="header">
+      <header>
+	 <f:link.page pageUid="1">
+	    <div id="logo-1">
+	       <f:image src="typo3conf/ext/mick-solutions/Resources/Public/img/logo2.jpg" alt="Logo" />
+	    </div>
+	    <div id="logo-2">
+	       <f:image src="typo3conf/ext/mick-solutions/Resources/Public/img/logo.jpg" alt="Logo" />
+	    </div>
+	 </f:link.page>
+	 <h1>Sängerjugend</h1>
+	 <h2>Stuttgart</h2>
+	 <h3>Im Wilhelm-Hauff-Chorverband</h3>
+      </header>
+      <div id="color">
+	 <header></header>
+	 <footer></footer>
+      </div>
+      <nav id ="main-nav" class="navbar navbar-default" role="navigation">
+	 <div class="container-fluid">
+	    <div class="navbar-header">
+	       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav-collapse">
+		  <span class="sr-only">Toggle navigation</span>
+		  <span class="icon-bar"></span>
+		  <span class="icon-bar"></span>
+		  <span class="icon-bar"></span>
+	       </button>
+	    </div>
+
+	    <div class="collapse navbar-collapse" id="main-nav-collapse">
+	       <f:cObject typoscriptObjectPath="lib.mainmenu" />
+	       <f:cObject typoscriptObjectPath="lib.searchbox" />
+	    </div>
+	 </div>
+      </nav>
+      <footer>
+
+      </footer>
+   </section>
+</div>
+<div class="row wrapper">
+   <section id="content" class="col-md-6">
+      <header>
+	 <f:cObject typoscriptObjectPath="lib.breadcrumb" />
+	 <div id="dreieck-oben"></div>
+      </header>
+      <article>
+	 <!--TYPO3SEARCH_begin-->
+	 <f:format.raw>{content}</f:format.raw>
+	 <!--TYPO3SEARCH_end-->
+      </article>
+      <footer>
+	 <div id="pferd">
+	    <f:image src="typo3conf/ext/mick-solutions/Resources/Public/img/Roessle.png" alt="Roessle" />
+	 </div>
+	 <div id="dreieck-unten"></div>
+	 <p>„Ein gutes Lied verkürzt den Weg“</p>
+      </footer>
+   </section>
+</div>
+<section id="footer">
+   <div class="row">
+      <nav>
+	 <h3>Sitemap</h3>
+	 <p>Der kleine Überblick für Zwischendurch...</p>
+	 <f:cObject typoscriptObjectPath="lib.sitemap" />
+      </nav>
+   </div>
+   <div id="copyright">
+      <f:cObject typoscriptObjectPath="lib.footermenu" />
+      <p>
+	 © 2015 Sängerjugend Stuttgart
+	 <a href="javascript:self.scrollTo(0,0);">
+	    <span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span>
+	 </a>
+      </p>
+   </div>
+</section>

@@ -1,0 +1,87 @@
+@main: #fff;
+@sec: rgba(255, 255, 255, 1.0);
+@link-bg: rgba( 255,185,15, 0.4);
+@link: rgba( 0,0,0, 0.8);
+@responsive-sec: rgba( 0,0,0, 0.1);
+
+#main-nav {
+    padding-left: 650px;
+    ul {
+        li {
+            &:hover {
+                background-color: @link-bg;
+            }
+        }
+    }
+}
+#responsive-sec {
+    display: none;
+    -webkit-border-radius: 10px; 
+    -moz-border-radius: 10px; 
+    border-radius: 10px;
+    background-color: @responsive-sec;
+    button {
+        margin-left: 15px;
+        &:hover {
+            background-color: @responsive-sec;
+        }
+        &:focus {
+            background-color: @responsive-sec;
+        }
+    }
+    ul {
+        .active {
+            a {
+                background-color: rgba( 0,0,0, 0.2);
+            }
+        }
+        li {
+            &:hover {
+                background-color: @link-bg;
+            }
+        }
+    }
+}
+
+#second-nav {
+    position: absolute;
+    max-width: 200px;
+    background-color: @sec;
+    top: 0;
+    left: 20px;
+    height: 100%;
+    padding-top: 160px;
+    float: left;
+    h3 {
+        color: rgba(0,0,0, 0.4);
+        margin: 20px;
+        float: right;
+        font-size: 14pt;
+        span {
+            margin: 10px;
+            font-size: 20pt;
+            color: rgba(139,0,0, 0.4);
+        }
+    }
+    ul {
+        float: center;
+        text-align: center;
+        .active {
+            a {
+                background-color: #e7e7e7;
+            }
+        }
+        li {
+            float: left;
+            display: inline-block;
+            width: 100%;
+            a {
+                display: block;
+                color: @link;
+                &:hover {
+                    background-color: @link-bg;
+                }
+            }
+        }
+    }
+}

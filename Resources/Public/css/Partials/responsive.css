@@ -1,0 +1,105 @@
+@media (max-width: 1600px) {
+  #content {
+    min-width: 75%;
+  }
+}
+@media (max-width: 1200px) {
+  body {
+    background: #183026 url('../img/mobile-bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center 0;
+    background-attachment: fixed;
+  }
+  #content {
+    padding: 10px;
+    margin: 240px;
+    margin-top: 180px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 60px;
+  }
+  #content footer p {
+    color: rgba(225, 225, 225, 0);
+    font-size: 3px;
+  }
+}
+@media (max-width: 1100px) {
+  #main-nav {
+    padding-left: 0;
+    margin-top: 220px;
+  }
+  #header header {
+    width: 100%;
+    z-index: 100;
+  }
+  #header #color header {
+    width: 100%;
+  }
+}
+@media (max-width: 900px) {
+  #content {
+    min-width: 68%;
+  }
+}
+@media (max-width: 768px) {
+  .wrapper {
+    margin-top: 40px;
+    margin-bottom: 80px;
+  }
+  #color footer {
+    display: none;
+  }
+  #header footer {
+    border: none;
+  }
+  #content {
+    margin: 0;
+    position: relative;
+    width: 100%;
+  }
+  #content header ol {
+    width: 80%;
+  }
+  #content header #dreieck-oben {
+    right: 80%;
+  }
+  #content footer p {
+    width: 80%;
+  }
+  #content footer #dreieck-unten {
+    left: 80%;
+  }
+  #main-nav {
+    margin-top: 230px;
+    background-color: #ffffff;
+    padding-left: 0;
+  }
+  #header #logo-1 {
+    display: none;
+  }
+  #header #logo-2 {
+    display: block;
+  }
+  #header h1,
+  #header h2,
+  #header h3 {
+    display: none;
+  }
+  #header header {
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+  }
+  #header #color header {
+    width: 100%;
+  }
+  #responsive-sec {
+    display: block;
+  }
+  #second-nav {
+    display: none;
+  }
+  #footer nav ul {
+    margin: 20px 10px;
+  }
+}

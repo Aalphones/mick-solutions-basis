@@ -1,0 +1,28 @@
+.em_price {
+  position: relative;
+  margin: 10px;
+  padding: 0;
+  float: right;
+  text-align: center;
+  border-top: 10px solid #2e8b57;
+}
+.em_map {
+  height: 350px;
+}
+.em_time {
+  position: relative;
+  margin: 10px;
+  padding: 0;
+  float: left;
+  text-align: center;
+  border-top: 10px solid #B22222;
+  background-color: #EEEEE0;
+}
+#cat_button {
+  width: 50px;
+  margin: 5px;
+}
+#selectedcategory {
+  width: auto;
+  display: inline-block;
+}

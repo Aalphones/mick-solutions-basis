@@ -1,0 +1,81 @@
+<div class="row">
+   <section id="header">
+      <header>
+	 <f:link.page pageUid="1">
+	 <f:image src="typo3conf/ext/mick-solutions/Resources/Public/img/logo.jpg" alt="Logo" />
+	 </f:link.page>
+      </header>
+      <div id="color">
+	 <header></header>
+	 <footer></footer>
+      </div>
+      <nav id ="main-nav" class="navbar navbar-default" role="navigation">
+	 <div class="container-fluid">
+	    <div class="navbar-header">
+	       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav-collapse">
+		  <span class="sr-only">Toggle navigation</span>
+		  <span class="icon-bar"></span>
+		  <span class="icon-bar"></span>
+		  <span class="icon-bar"></span>
+	       </button>
+	    </div>
+
+	    <div class="collapse navbar-collapse" id="main-nav-collapse">
+	       <f:cObject typoscriptObjectPath="lib.mainmenu" />
+	       <f:cObject typoscriptObjectPath="lib.searchbox" />
+	    </div>
+	 </div>
+      </nav>
+      <footer>
+
+      </footer>
+   </section>
+</div>
+<div class="row wrapper">
+   <section id="second-nav" class="col-md-6">
+      <h3>sing for the <span>moment...</span></h3>
+      <f:cObject typoscriptObjectPath="lib.secondmenu" />
+   </section>
+   <section id="content" class="col-md-6">
+      <header>
+	 <f:cObject typoscriptObjectPath="lib.breadcrumb" />
+	 <div id="dreieck-oben"></div>
+      </header>
+      <article>
+	 <nav id="responsive-sec" class="navbar navbar-default" role="navigation">
+	    <div class="container-fluid">
+	       <div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#sec-nav-collapse">
+		     <span class="sr-only">Toggle navigation</span>
+		     <span class="icon-bar"></span>
+		     <span class="icon-bar"></span>
+		     <span class="icon-bar"></span>
+		  </button>
+	       </div>
+	       <div class="collapse navbar-collapse" id="sec-nav-collapse">
+		  <f:cObject typoscriptObjectPath="lib.secondmenu-responsive" />
+	       </div>
+	    </div>
+	 </nav>
+	 <!--TYPO3SEARCH_begin-->
+	 <f:format.raw>{content}</f:format.raw>
+	 <!--TYPO3SEARCH_end-->
+      </article>
+      <footer>
+	 <div id="dreieck-unten"></div>
+	 <p>„Ein gutes Lied verkürzt den Weg“</p>
+      </footer>
+   </section>
+</div>
+<section id="footer">
+   <div class="row">
+      <nav>
+	 <h3>Sitemap</h3>
+	 <p>Der kleine Überblick für Zwischendurch...</p>
+	 <f:cObject typoscriptObjectPath="lib.sitemap" />
+      </nav>
+   </div>
+   <div id="copyright">
+      <p>© 2014 Sängerjugend Stuttgart</p>
+   </div>
+</section>

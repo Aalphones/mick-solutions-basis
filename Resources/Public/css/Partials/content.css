@@ -1,0 +1,91 @@
+.wrapper {
+  position: relative;
+  height: auto;
+}
+#content {
+  background-color: #ffffff;
+  padding: 40px;
+  margin: 220px;
+  margin-left: 60px;
+  margin-right: 60px;
+  width: auto;
+  min-width: 92%;
+  min-height: 250px;
+  z-index: 5;
+  padding-bottom: 100px;
+}
+#content h1 {
+  font-size: 26px;
+  margin-bottom: 25px;
+}
+#content h2 {
+  font-size: 24px;
+}
+#content h3 {
+  font-size: 22px;
+}
+#content article {
+  z-index: 5;
+}
+#content header .breadcrumb a {
+  color: #ffffff;
+}
+#content header .breadcrumb .active {
+  color: #ffffff;
+}
+#content header .breadcrumb li:before {
+  color: #ffffff;
+}
+#content header ol {
+  position: absolute;
+  top: -30px;
+  right: 0;
+  width: 45%;
+  float: right;
+  text-align: right;
+  background-color: #ffb90f;
+  padding: 4px;
+  color: #ffffff;
+  padding-right: 20px;
+  border-radius: 0;
+  height: 28px;
+}
+#content header ol li .active {
+  color: #ffffff;
+}
+#content header ol a {
+  color: #ffffff;
+}
+#content header #dreieck-oben {
+  width: 0;
+  height: 0;
+  border-bottom: 28px solid #ffb90f;
+  border-left: 28px solid transparent;
+  position: absolute;
+  top: -30px;
+  right: 45%;
+}
+#content footer p {
+  bottom: -40px;
+  position: absolute;
+  left: 0;
+  width: 45%;
+  float: left;
+  text-align: left;
+  background-color: #ffb90f;
+  padding: 4px;
+  padding-left: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  letter-spacing: 4px;
+  height: 28px;
+}
+#content footer #dreieck-unten {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 28px solid #ffb90f;
+  border-right: 28px solid transparent;
+  bottom: -30px;
+  left: 45%;
+}

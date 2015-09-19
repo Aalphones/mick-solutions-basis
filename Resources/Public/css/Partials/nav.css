@@ -1,0 +1,68 @@
+#main-nav {
+  padding-left: 650px;
+}
+#main-nav ul li:hover {
+  background-color: rgba(255, 185, 15, 0.4);
+}
+#responsive-sec {
+  display: none;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+#responsive-sec button {
+  margin-left: 15px;
+}
+#responsive-sec button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+#responsive-sec button:focus {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+#responsive-sec ul .active a {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+#responsive-sec ul li:hover {
+  background-color: rgba(255, 185, 15, 0.4);
+}
+#second-nav {
+  position: absolute;
+  max-width: 200px;
+  background-color: #ffffff;
+  top: 0;
+  left: 20px;
+  height: 100%;
+  padding-top: 160px;
+  float: left;
+}
+#second-nav h3 {
+  color: rgba(0, 0, 0, 0.4);
+  margin: 20px;
+  float: right;
+  font-size: 14pt;
+}
+#second-nav h3 span {
+  margin: 10px;
+  font-size: 20pt;
+  color: rgba(139, 0, 0, 0.4);
+}
+#second-nav ul {
+  float: center;
+  text-align: center;
+}
+#second-nav ul .active a {
+  background-color: #e7e7e7;
+}
+#second-nav ul li {
+  float: left;
+  display: inline-block;
+  width: 100%;
+}
+#second-nav ul li a {
+  display: block;
+  color: rgba(0, 0, 0, 0.8);
+}
+#second-nav ul li a:hover {
+  background-color: rgba(255, 185, 15, 0.4);
+}

@@ -1,0 +1,136 @@
+@nav-bg: rgba( 255,255,255, 1.0);
+@sec-nav-bg: rgba( 0,0,0, 0.5);
+@width-res: 80%;
+
+@media (max-width: 1600px) {
+    #content {
+        min-width:75%;
+    }
+}
+
+@media (max-width: 1200px) {
+    body {
+        background: #183026 url('../img/mobile-bg.jpg') no-repeat;
+        background-size: cover;
+        background-position: center 0;
+        background-attachment: fixed;
+    }
+    #content {
+        padding: 10px;
+        margin: 240px;
+        margin-top: 180px;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-bottom: 60px;
+        footer {
+            p {
+                color: rgba(225, 225, 225, 0.0);
+                font-size: 3px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1100px) {
+    #main-nav {
+        padding-left: 0;
+        margin-top: 220px;
+    }
+    #header {
+        header {
+            width: 100%;
+            z-index: 100;
+        }
+        #color {
+            header {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    #content {
+        min-width:68%;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        margin-top: 40px;
+        margin-bottom: 80px;
+    }
+
+    #color {
+        footer {
+            display:none;
+        }
+    }
+    #header {
+        footer {
+            border:none;
+        }
+    }
+    #content {
+        margin: 0;
+        position: relative;
+        width: 100%;
+        header {
+            ol {
+                width: @width-res;
+            }
+            #dreieck-oben {
+                right: @width-res;
+            }
+        }
+        footer {
+            p {
+                width: @width-res;
+            }
+            #dreieck-unten {
+                left: @width-res;
+            }
+        }
+    }
+    #main-nav {
+        margin-top: 230px;
+        background-color: @nav-bg;
+        padding-left: 0;
+    }
+    #header {
+        #logo-1 {
+            display:none;
+        }
+        #logo-2 {
+            display:block;
+        }
+        h1, h2, h3 {
+            display: none;
+        }
+        header {
+            width: 100%;
+            text-align: center;
+            z-index: 100;
+        }
+        #color {
+            header {
+                width: 100%;
+            }
+        }
+    }
+    #responsive-sec {
+        display: block;
+    }
+    
+    #second-nav {
+        display: none;
+    }
+
+    #footer {
+        nav {
+            ul {
+                margin: 20px 10px;
+            }
+        }
+    }
+}

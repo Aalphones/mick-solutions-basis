@@ -1,0 +1,128 @@
+#pferd {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+#pferd img {
+  filter: alpha(opacity=50);
+  -moz-opacity: 0.50;
+  opacity: 0.50;
+}
+#footer {
+  position: relative;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+#footer nav {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  float: left;
+  width: 100%;
+  padding-top: 60px;
+}
+#footer nav h3 {
+  position: absolute;
+  top: -10px;
+  color: rgba(255, 64, 64, 0.6);
+  font-size: 20pt;
+  margin: 10px;
+  text-transform: lowercase;
+}
+#footer nav p {
+  position: absolute;
+  top: -5px;
+  left: 60px;
+  color: rgba(255, 255, 255, 0.6);
+  float: right;
+  font-size: 14pt;
+  margin: 20px;
+  text-transform: lowercase;
+}
+#footer nav a {
+  color: #fff;
+}
+#footer nav ul {
+  width: 100%;
+  display: inline-block;
+  float: center;
+  margin: 0 10px;
+}
+#footer nav ul li {
+  width: 200px;
+  float: left;
+  list-style: none;
+}
+#footer nav ul li a {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 17px;
+  font-weight: normal;
+  letter-spacing: 3px;
+}
+#footer nav ul li a:hover {
+  color: #ffffff;
+}
+#footer nav ul li ul {
+  margin-top: 10px;
+  width: 100%;
+  padding-left: 0;
+}
+#footer nav ul li ul li {
+  display: block;
+  width: 100%;
+}
+#footer nav ul li ul li a {
+  letter-spacing: 0px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
+  font-weight: normal;
+}
+#footer nav ul li ul li a:hover {
+  color: #ffffff;
+}
+#footer #copyright {
+  background-color: #ffffff;
+  width: 100%;
+  text-align: right;
+  padding: 10px 20px 10px 10px;
+  margin: 0;
+}
+#footer #copyright a span {
+  filter: alpha(opacity=50);
+  -moz-opacity: 0.50;
+  opacity: 0.50;
+}
+#footer #copyright a:hover span {
+  filter: alpha(opacity=100);
+  -moz-opacity: 1.00;
+  opacity: 1.00;
+}
+#footer #copyright ul {
+  list-style: none;
+  float: left;
+}
+#footer #copyright ul li {
+  float: left;
+  position: relative;
+  padding: 5px;
+}
+#footer #copyright ul li a {
+  color: black;
+}
+#footer #copyright ul li a:hover {
+  color: black;
+}
+#footer #copyright p {
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: rgba(0, 0, 0, 0.6);
+}
+#footer #copyright p a {
+  margin-left: 20px;
+  color: black;
+}
+#footer #copyright p a:hover {
+  color: black;
+}
